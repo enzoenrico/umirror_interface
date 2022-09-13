@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface_web</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <script src="app.js"></script>
+    
+    <div id="main">
+        
+        <!-- Weather widget -->
+        <div class="weather">
+            <a class="weatherwidget-io" href="https://forecast7.com/pt/n25d43n49d27/curitiba/" data-label_1="CURITIBA"
+            data-label_2="Clima" data-theme="original">CURITIBA Clima</a>
+            <script>
+                !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+            </script>
+        </div>
+        
+        <div class="spotify">
+
+        <!-- Spotify widget -->
+        <iframe style="border-radius:15px" src="https://open.spotify.com/embed/track/10nyNJ6zNy2YVYLrcwLccB?utm_source=generator&theme=0" width="380px" height="100px" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+        </div>
+        
+        <!-- Twitter widget -->
+        <div class="twitter">
+            <a class="twitter-timeline" data-theme="dark"
+            href="https://twitter.com/sseraphini?ref_src=twsrc%5Etfw">Tweets by sseraphini</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
+        <div id="spotify">
+            teste
+        </div>
+    </div>
+
+</body>
+
+</html>

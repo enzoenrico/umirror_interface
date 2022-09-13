@@ -1,0 +1,41 @@
+*{
+    border:5px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: black;
+    /* overflow: hidden; */
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.spotify{
+    display: flex;
+    align-items: flex-start;
+}
+
+.weather{
+    
+    width: 100%;
+
+}
+
+.twitter{
+    width: 25%;
+    max-height: 50px;
+}
+
+#spotify{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+
+}
